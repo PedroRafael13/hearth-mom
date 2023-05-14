@@ -19,7 +19,7 @@ body {
 }
 
 .contenido {
-  position: fixed;
+  position: relative;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -67,3 +67,5 @@ h2 {
   border-radius: 50%;
   box-shadow: 20px 20px 150px #f20044;
 }
+
+@media screen and (min-width:700px) {}
